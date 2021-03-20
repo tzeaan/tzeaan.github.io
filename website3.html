@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            
+            background: -webkit-linear-gradient( 90deg, red, purple);
+            background-size:600vw 600vw;
+
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textAnimate 5s linear infinite alternate;
+        }
+
+            @keyframes textAnimate {
+                from {
+                filter: hue-rotate(0deg);
+                background-position-x: 0%;
+    
+                }
+                to {
+                filter: hue-rotate(360deg);
+                background-position-x: 600vw;
+                }
+            }
+    </style>
+</head>
+
+<body>
+    <h1>Thank you for submitting!</h1>
+</body>
